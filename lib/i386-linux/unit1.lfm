@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 229
+  Height = 240
+  Top = 106
+  Width = 320
+  Caption = 'Tuggas PD'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object Edit1: TEdit
+    Left = 106
+    Height = 27
+    Top = 32
+    Width = 80
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 111
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = 'Tampl'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 37
+    Height = 17
+    Top = 151
+    Width = 118
+    Caption = 'Nama :   Hendrayana'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 37
+    Height = 17
+    Top = 176
+    Width = 60
+    Caption = 'Kelas: TKJ2'
+    ParentColor = False
+  end
+end
